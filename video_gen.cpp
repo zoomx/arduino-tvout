@@ -158,7 +158,8 @@ void active_line() {
 void vsync_line() {
 	if (display.scanLine >= display.lines_frame) {
 		OCR1A = _CYCLES_VIRT_SYNC;
-		display.scanLine = 0;
+		display.scanLine = -1;
+		//https://code.google.com/p/arduino-tvout/issues/detail?id=7
 		display.frames++;
 
 		if (remainingToneVsyncs != 0)
