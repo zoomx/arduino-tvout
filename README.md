@@ -1,4 +1,6 @@
 # arduino-tvout
+just a copy of the original repository but v-Sync-problem fixed.
+
 Automatically exported from code.google.com/p/arduino-tvout
 
 It is just a copy of the original repository
