@@ -20,3 +20,6 @@ void vsync_line() {
 	if (display.scanLine >= display.lines_frame) {
 		OCR1A = _CYCLES_VIRT_SYNC;
 		display.scanLine = -1
+
+Claus Ilginnis made a better work fixing more bugs
+http://sourceforge.net/projects/arduino-tvout/
